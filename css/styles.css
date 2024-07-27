@@ -1,0 +1,130 @@
+:root {
+  --font-family: "Roboto", sans-serif;
+  --second-family: "Raleway", sans-serif;
+}
+.body {
+  font-family: var(--font-family);
+  font-weight: 400;
+  letter-spacing: 0.03em;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+ margin: 0;
+ padding: 0;
+}
+.container {
+  width: 1170px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  display: flex;
+}
+.menu-link {
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 0.02em;
+  color: #212121;
+}
+
+.logo {
+  font-family: var(--second-family);
+  font-weight: 700;
+  font-size: 26px;
+  letter-spacing: 0.03em;
+  color: #2196f3;
+}
+.header-contact {
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 0.02em;
+  color: #757575;
+}
+.order-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  color: #fff;
+}
+.order-button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  color: #fff;
+}
+.pluses-list-item-text {
+  font-size: 14px;
+  line-height: 1.71;
+  color: #757575;
+}
+.pluses-list-item-title {
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.images-title {
+  font-weight: 700;
+  font-size: 36px;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.workers-title {
+  font-weight: 700;
+  font-size: 36px;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.worker-text {
+  font-size: 16px;
+  color: #757575;
+}
+.worker-name {
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.gallery-filter {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.gallery-item-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: #212121;
+}
+.gallery-item-text {
+  font-size: 16px;
+  line-height: 1.87;
+  color: #757575;
+}
+.address-text {
+  font-size: 14px;
+  line-height: 1.71;
+  color: #fff;
+}
+.footer-contact-link {
+  font-size: 14px;
+  line-height: 1.71;
+  color: rgba(255, 255, 255, 0.6);
+}
+.footer {
+  background-color: #212121;
+}
