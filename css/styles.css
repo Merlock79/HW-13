@@ -22,12 +22,16 @@ h6 {
  margin: 0;
  padding: 0;
 }
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
 .container {
-  width: 1170px;
+  width: 1200px;
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
-  display: flex;
 }
 .menu-link {
   font-weight: 500;
@@ -35,13 +39,18 @@ h6 {
   letter-spacing: 0.02em;
   color: #212121;
 }
-
+.menu {
+display: flex;
+justify-content: center;
+}
 .logo {
   font-family: var(--second-family);
   font-weight: 700;
   font-size: 26px;
   letter-spacing: 0.03em;
   color: #2196f3;
+  display: flex;
+  justify-content: flex-start;
 }
 .header-contact {
   font-weight: 500;
@@ -49,12 +58,18 @@ h6 {
   letter-spacing: 0.02em;
   color: #757575;
 }
+.header-contacts {
+  display: flex;
+  justify-content: flex-end;
+}
 .order-title {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
   letter-spacing: 0.06em;
   color: #fff;
+  display: flex;
+  justify-content: space-evenly;
 }
 .order-button {
   font-weight: 700;
@@ -62,6 +77,12 @@ h6 {
   line-height: 1.87;
   letter-spacing: 0.06em;
   color: #fff;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+.pluses-list {
+  display: flex;
 }
 .pluses-list-item-text {
   font-size: 14px;
@@ -79,12 +100,24 @@ h6 {
   font-size: 36px;
   letter-spacing: 0.03em;
   color: #212121;
+  display: flex;
+  justify-content: center;
+}
+.images-list {
+  display: flex;
+  justify-content: space-evenly;
 }
 .workers-title {
   font-weight: 700;
   font-size: 36px;
   letter-spacing: 0.03em;
   color: #212121;
+  display: flex;
+  justify-content: center;
+}
+.workers-lists {
+  display: flex;
+  justify-content: space-evenly;
 }
 .worker-text {
   font-size: 16px;
@@ -96,12 +129,25 @@ h6 {
   letter-spacing: 0.03em;
   color: #212121;
 }
+.gallery-filters {
+  display: flex;
+  justify-content: center;
+}
 .gallery-filter {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
   letter-spacing: 0.03em;
   color: #212121;
+}
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 30px;
+  row-gap: 30px;
+}
+.gallery-item {
+  flex-basis: calc((100% - 60px) / 3);
 }
 .gallery-item-title {
   font-weight: 700;
