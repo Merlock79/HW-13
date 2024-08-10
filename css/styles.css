@@ -34,6 +34,8 @@ img {
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
+  padding-top: 39px;
+  padding-bottom: 39px;
 }
 .menu-link {
   font-weight: 500;
@@ -72,6 +74,7 @@ justify-content: center;
   color: #fff;
   display: flex;
   justify-content: space-evenly;
+  padding-bottom: 30px;
 }
 .order-button {
   font-weight: 700;
@@ -104,6 +107,7 @@ justify-content: center;
   color: #212121;
   display: flex;
   justify-content: center;
+  padding-bottom: 50px;
 }
 .images-list {
   display: flex;
@@ -116,6 +120,7 @@ justify-content: center;
   color: #212121;
   display: flex;
   justify-content: center;
+  padding-bottom: 50px;
 }
 .workers-lists {
   display: flex;
