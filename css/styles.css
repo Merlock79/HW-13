@@ -129,12 +129,19 @@ justify-content: center;
 .worker-text {
   font-size: 16px;
   color: #757575;
+  display: flex;
+  justify-content: center;
 }
 .worker-name {
   font-weight: 500;
   font-size: 16px;
   letter-spacing: 0.03em;
   color: #212121;
+  display: flex;
+  justify-content: center;
+}
+.worker-img {
+  padding-bottom: 30px;
 }
 .gallery-filters {
   display: flex;
