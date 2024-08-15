@@ -36,6 +36,10 @@ img {
   padding-right: 15px;
   padding-top: 39px;
   padding-bottom: 39px;
+
+}
+.nav {
+  display: inline-flex;
 }
 .menu-link {
   font-weight: 500;
@@ -65,6 +69,7 @@ justify-content: center;
 .header-contacts {
   display: flex;
   justify-content: flex-end;
+  display: inline-flex;
 }
 .order-title {
   font-weight: 900;
