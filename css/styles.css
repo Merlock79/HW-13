@@ -49,6 +49,7 @@ img {
 .menu {
 display: flex;
 justify-content: center;
+column-gap: 45px;
 }
 .logo {
   font-family: var(--second-family);
@@ -128,7 +129,8 @@ justify-content: center;
 }
 .workers-lists {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
+  column-gap: 30px;
 }
 .worker-text {
   font-size: 16px;
