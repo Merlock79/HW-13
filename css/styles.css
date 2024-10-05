@@ -39,7 +39,6 @@ img {
 .nav {
   display: inline-flex;
   margin-left: 93px;
-  padding-bottom: 32px;
   padding-top: 32px;
 }
 .menu-link {
@@ -52,6 +51,9 @@ img {
 display: flex;
 justify-content: center;
 column-gap: 45px;
+}
+.header {
+  padding-bottom: 32px;
 }
 .logo {
   font-family: var(--second-family);
@@ -77,6 +79,7 @@ column-gap: 45px;
 .order {
   background-color: #2F303A;
   height: 600px;
+  padding-top: 200px;
 }
 .order-title {
   font-weight: 900;
@@ -87,7 +90,6 @@ column-gap: 45px;
   display: flex;
   justify-content: space-evenly;
   padding-bottom: 30px;
-  padding-top: 200px;
 }
 .order-button {
   font-weight: 700;
@@ -104,10 +106,12 @@ column-gap: 45px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background: #2196f3;
 }
+.pluses {
+  padding-top: 94px;
+  padding-bottom: 94px
+}
 .pluses-list {
   display: flex;
-  padding-top: 94px;
-  padding-bottom: 94px;
 }
 .pluses-list-item-text {
   font-size: 14px;
@@ -119,6 +123,9 @@ column-gap: 45px;
   font-size: 14px;
   letter-spacing: 0.03em;
   color: #212121;
+}
+.images {
+  padding-bottom: 94px;
 }
 .images-title {
   font-weight: 700;
@@ -133,6 +140,8 @@ column-gap: 45px;
   display: flex;
   justify-content: space-evenly;
   column-gap: 30px;
+}
+.workers {
   padding-bottom: 94px;
 }
 .workers-title {
@@ -148,7 +157,6 @@ column-gap: 45px;
   display: flex;
   justify-content: center;
   column-gap: 30px;
-  padding-bottom: 94px;
 }
 .worker-text {
   font-size: 16px;
